@@ -90,12 +90,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Chapter I · VerdeToolKit ── */}
+      {/* ── Chapter I · VerdeKit ── */}
       <section id="toolkit" className="chapter chapter-tools">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-24">
           <Chapter
             n="Chapter I"
-            name="VerdeToolKit"
+            name="VerdeKit"
             badge="/badges/verde-toolkit.svg"
             line="Little tools I build for real everyday problems."
             social={[
@@ -210,7 +210,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5 py-14 md:px-8">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { name: "VerdeToolKit", badge: "/badges/verde-toolkit.svg", social: [{ kind: "github" as const, label: "GitHub", href: GITHUB_PROFILE }] },
+              { name: "VerdeKit", badge: "/badges/verde-toolkit.svg", social: [{ kind: "github" as const, label: "GitHub", href: GITHUB_PROFILE }] },
               { name: "VerdeArt", badge: "/badges/verde-art.svg", social: [{ kind: "instagram" as const, label: "Instagram", href: INSTAGRAM }, { kind: "x" as const, label: "X", href: X_ART }] },
               { name: "VerdeSelf", badge: "/badges/verde-self.svg", social: [{ kind: "substack" as const, label: "Substack", href: SUBSTACK }, { kind: "instagram" as const, label: "Instagram", href: INSTAGRAM_SELF }] },
               { name: "Say hi", badge: "/badges/verdy-bunny.svg", social: [{ kind: "email" as const, label: "Email me", href: `mailto:${EMAIL}` }] },

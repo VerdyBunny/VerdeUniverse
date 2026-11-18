@@ -3,7 +3,7 @@ import { asset } from "../asset";
 // My brands as stickers on the page: each one tilted a little, with a bit of washi tape.
 // They hop when I hover them (bs-* in globals.css). VerdeCraft stays off until it's public.
 const brands = [
-  { name: "VerdeToolKit", line: "Little tools I build. VerdeSnap v0.2.0 is out", badge: "/badges/verde-toolkit.svg", href: "#toolkit", tilt: -3 },
+  { name: "VerdeKit", line: "Little tools I build. VerdeSnap v0.2.0 is out", badge: "/badges/verde-toolkit.svg", href: "#toolkit", tilt: -3 },
   { name: "VerdeArt", line: "Little stories, songs and paintings ♪", badge: "/badges/verde-art.svg", href: "#art", tilt: 2 },
   { name: "VerdeSelf", line: "My real thoughts and essays", badge: "/badges/verde-self.svg", href: "#self", tilt: -1.5 },
 ];

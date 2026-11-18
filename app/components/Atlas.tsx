@@ -8,7 +8,7 @@ import { asset } from "../asset";
 
 const C = 320;
 const planets = [
-  { label: "VerdeToolKit", href: "#toolkit", badge: "/badges/verde-toolkit.svg", r: 122, start: 24, spin: "54s", size: 62 },
+  { label: "VerdeKit", href: "#toolkit", badge: "/badges/verde-toolkit.svg", r: 122, start: 24, spin: "54s", size: 62 },
   { label: "VerdeArt", href: "#art", badge: "/badges/verde-art.svg", r: 194, start: 205, spin: "84s", size: 70 },
   { label: "VerdeSelf", href: "#self", badge: "/badges/verde-self.svg", r: 268, start: 318, spin: "130s", size: 54 },
 ];

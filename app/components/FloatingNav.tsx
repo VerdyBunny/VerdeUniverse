@@ -44,7 +44,7 @@ export function FloatingNav() {
     <div aria-hidden="true" className="h-24" />
     <div className="nav-drop pointer-events-none fixed inset-x-0 top-3 z-50 px-4 sm:top-4">
       {/* the menu as the top card of a deck: two more cards peek out behind it */}
-      <header className={`nav-deck pointer-events-auto mx-auto flex items-center justify-between gap-3 transition-all duration-300 ${scrolled ? "is-scrolled max-w-3xl" : "max-w-4xl"}`}>
+      <header className={`nav-deck pointer-events-auto mx-auto flex items-center justify-between gap-3 transition-all duration-300 max-w-4xl ${scrolled ? "is-scrolled" : ""}`}>
         <a href="#top" className="flex min-w-0 items-center gap-2.5 pl-1">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={asset("/badges/verdy-bunny.svg")} alt="Verdy Bunny" className="nav-logo h-10 w-10 shrink-0 rounded-full" />
