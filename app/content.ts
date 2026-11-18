@@ -2,9 +2,17 @@
 // This site is public: only finished work and my own words about it, nothing private.
 
 export const VERDESNAP_REPO = "https://github.com/schwa1997/verdeSnap";
-export const VERDESNAP_RELEASE = `${VERDESNAP_REPO}/releases/tag/v0.1.0`;
-export const GITHUB_PROFILE = "https://github.com/schwa1997";
+export const VERDESNAP_VERSION = "v0.2.0";
+export const VERDESNAP_RELEASE = `${VERDESNAP_REPO}/releases/tag/${VERDESNAP_VERSION}`;
+export const GITHUB_PROFILE = "https://github.com/VerdyBunny";
+/** VerdeArt: images and video */
 export const INSTAGRAM = "https://www.instagram.com/arty.verde/";
+export const X_ART = "https://x.com/verdeArty";
+/** VerdeSelf: information and words */
+export const INSTAGRAM_SELF = "https://www.instagram.com/verde.self/";
+export const SUBSTACK = "https://substack.com/@verdebunny";
+/** one contact for all of Verde */
+export const EMAIL = "hello.verdeuniverse@gmail.com";
 
 export type Work = {
   title: string;
@@ -71,6 +79,9 @@ export const journey = [
   { date: "3 Nov 2026", text: "VerdeUniverse begins" },
   { date: "5 Nov 2026", text: "My first MV: 行走的鱼" },
   { date: "6 Nov 2026", text: "My first tool is out: VerdeSnap v0.1.0" },
+  { date: "6 Nov 2026", text: "This website goes live" },
+  { date: "16 Nov 2026", text: "Verdy Bunny 🐰👓 is born, and so is my Substack" },
+  { date: "18 Nov 2026", text: "My first update: VerdeSnap v0.2.0" },
 ];
 
 export const ribbon = [

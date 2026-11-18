@@ -1,13 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Verde's art: a painter's palette with a leaf among the paint -->
-  <circle cx="32" cy="32" r="30" fill="#1f6b45"/>
-  <g fill="none" stroke="#f6faef" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 13 C20 13 12 22 12 32 C12 43 21 51 31 51 C35 51 37 48.5 36 45.5 C35 42 37 39 41 39 H45 C49 39 52 36.5 52 32 C52 21 43 13 32 13 Z"/>
-    <path d="M34 29 C34 24 37.5 20.5 43 20 C43.3 25.5 39.5 29 34 29 Z"/>
-  </g>
-  <g fill="#f6faef">
-    <circle cx="23" cy="25" r="2.6"/>
-    <circle cx="20.5" cy="35" r="2.6"/>
-    <circle cx="28" cy="43" r="2.6"/>
+  <!-- Verde's art name tag, "Verde Bunny": the same bunny in glasses as verde-self.svg, a pine line on neon green -->
+  <circle cx="32" cy="32" r="30" fill="#C6FF3D"/>
+  <g fill="none" stroke="#1f6b45" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24.5 31 C17 21 17.5 11.5 22 9.5 C27 11.5 29.5 21 28.5 30"/>
+    <path d="M39.5 31 C47 21 46.5 11.5 42 9.5 C37 11.5 34.5 21 35.5 30"/>
+    <circle cx="23" cy="40.5" r="8"/>
+    <circle cx="41" cy="40.5" r="8"/>
+    <path d="M31 39.5 Q32 38.2 33 39.5"/>
+    <path d="M30.5 49.5 Q32 51 33.5 49.5"/>
   </g>
 </svg>

@@ -24,10 +24,11 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # A "<user>.github.io" repo is served at the root (https://verdybunny.github.io/), so no base
+      # path; any other repo name is served under /<repo-name>/.
       - run: npm run build
         env:
-          # Remove this line if the site moves to its own domain
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_BASE_PATH: ${{ endsWith(github.event.repository.name, '.github.io') && '' || format('/{0}', github.event.repository.name) }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out

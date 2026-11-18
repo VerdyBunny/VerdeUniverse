@@ -4,10 +4,15 @@ import { Gallery } from "./components/Gallery";
 import { Reveal } from "./components/Reveal";
 import { SnapVideo } from "./components/SnapVideo";
 import {
+  EMAIL,
   GITHUB_PROFILE,
   INSTAGRAM,
+  INSTAGRAM_SELF,
+  SUBSTACK,
   VERDESNAP_RELEASE,
   VERDESNAP_REPO,
+  VERDESNAP_VERSION,
+  X_ART,
   journey,
   ribbon,
 } from "./content";
@@ -19,9 +24,10 @@ const outline =
 
 const features = [
   ["Alt + A", "Snip anything, the same shortcut as WeChat"],
+  ["Adjust", "Resize the snip area after you draw it"],
   ["Mark", "Draw on it before you share it"],
   ["Read", "Pull the text out of any screenshot"],
-  ["Translate", "With any AI you point it to"],
+  ["Translate", "With any AI you point it to, now faster"],
 ];
 
 function Ribbon() {
@@ -69,7 +75,7 @@ export default function Home() {
             <span className="rise block italic text-forest" style={{ "--i": 3 } as React.CSSProperties}>grown by me.</span>
           </h1>
           <p className="rise mt-6 max-w-md text-lg leading-relaxed text-ink-soft" style={{ "--i": 4 } as React.CSSProperties}>
-            I&apos;m Verde. I make tools, AI art and ideas, and I plant them all here to see what grows.
+            I&apos;m Verdy Bunny 🐰👓 I make tools, AI art and ideas, and I plant them all here to see what grows.
           </p>
           <div className="rise mt-7 flex flex-wrap gap-3" style={{ "--i": 5 } as React.CSSProperties}>
             <a href={VERDESNAP_REPO} target="_blank" rel="noreferrer" className={solid}>
@@ -107,7 +113,7 @@ export default function Home() {
               View on GitHub →
             </a>
             <a href={VERDESNAP_RELEASE} target="_blank" rel="noreferrer" className={outline}>
-              Download v0.1.0
+              Download {VERDESNAP_VERSION}
             </a>
           </div>
           <p className="mt-3 text-xs text-ink-soft">
@@ -126,9 +132,17 @@ export default function Home() {
             <h2 className="display mt-3 max-w-2xl text-4xl font-semibold leading-tight text-pine md:text-5xl">
               Little stories, made with AI and a lot of feeling.
             </h2>
-            <a href={INSTAGRAM} target="_blank" rel="noreferrer" className={`${solid} mt-6`}>
-              Follow @arty.verde on Instagram →
-            </a>
+            <p className="mt-4 max-w-xl text-lg leading-relaxed text-ink-soft">
+              Made by Verdy Bunny 🐰👓, in English, one little story at a time.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a href={INSTAGRAM} target="_blank" rel="noreferrer" className={solid}>
+                @arty.verde on Instagram →
+              </a>
+              <a href={X_ART} target="_blank" rel="noreferrer" className={outline}>
+                @verdeArty on X
+              </a>
+            </div>
           </Reveal>
           <Gallery />
         </div>
@@ -138,11 +152,20 @@ export default function Home() {
         <Reveal>
           <p className="plate">Plate III · VerdeSelf</p>
           <h2 className="display mt-3 text-4xl font-semibold leading-tight text-pine md:text-5xl">
-            Still a seed.
+            My frequency 📻
           </h2>
           <p className="mt-4 max-w-md text-lg leading-relaxed text-ink-soft">
-            A future home for my ideas, blogs and creative thoughts. It will grow when it&apos;s ready.
+            My real thoughts and essays, written by Verdy Bunny. I share what I really think, and the
+            people on the same frequency find me.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a href={SUBSTACK} target="_blank" rel="noreferrer" className={solid}>
+              Read me on Substack →
+            </a>
+            <a href={INSTAGRAM_SELF} target="_blank" rel="noreferrer" className={outline}>
+              @verde.self on Instagram
+            </a>
+          </div>
         </Reveal>
         <Reveal delay={150}>
           <p className="plate">The journey so far</p>
@@ -167,13 +190,21 @@ export default function Home() {
             <p className="mt-2 text-ink-soft">The point isn&apos;t to be impressive, it&apos;s to express myself.</p>
           </Reveal>
           <div className="mt-10 flex flex-wrap items-center justify-between gap-3 text-sm text-ink-soft">
-            <span>Made by me, Verde ✧</span>
-            <span className="flex gap-5">
-              <a href={INSTAGRAM} target="_blank" rel="noreferrer" className="font-semibold text-forest hover:underline">
-                Instagram
-              </a>
-              <a href={GITHUB_PROFILE} target="_blank" rel="noreferrer" className="font-semibold text-forest hover:underline">
-                GitHub
+            <span>Made by me, Verdy Bunny ✧</span>
+            <span className="flex flex-wrap gap-x-5 gap-y-2">
+              {[
+                ["Art · Instagram", INSTAGRAM],
+                ["Art · X", X_ART],
+                ["Self · Instagram", INSTAGRAM_SELF],
+                ["Substack", SUBSTACK],
+                ["GitHub", GITHUB_PROFILE],
+              ].map(([label, href]) => (
+                <a key={href} href={href} target="_blank" rel="noreferrer" className="font-semibold text-forest hover:underline">
+                  {label}
+                </a>
+              ))}
+              <a href={`mailto:${EMAIL}`} className="font-semibold text-forest hover:underline">
+                {EMAIL}
               </a>
             </span>
           </div>
