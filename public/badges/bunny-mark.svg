@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 100 140">
+  <!-- my mark: two long bunny ears over a pair of round glasses, one thin line (also used on my song covers) -->
+  <g fill="none" stroke="#1f6b45" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/><circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+</svg>

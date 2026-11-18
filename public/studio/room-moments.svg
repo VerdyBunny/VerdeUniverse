@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg-roommomentssvg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1e0"/><stop offset="0.5" stop-color="#ffd6c9"/><stop offset="1" stop-color="#f7c46c"/></linearGradient>
+    <radialGradient id="glow-roommomentssvg" cx=".75" cy=".2" r="0.6"><stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome-roommomentssvg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#d6e2ee"/><stop offset=".5" stop-color="#8fa3b8"/><stop offset=".62" stop-color="#eef4fa"/><stop offset="1" stop-color="#b8c4d6"/>
+    </linearGradient>
+    
+  <filter id="g-roommomentssvg" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="table" tableValues="0 0.35"/></feComponentTransfer>
+  </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-roommomentssvg)"/>
+  <rect width="600" height="600" fill="url(#glow-roommomentssvg)"/>
+  
+      <text x="560" y="250" text-anchor="end" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="240" fill="#ffffff" opacity=".55" letter-spacing="-10">01</text>
+      <text x="40" y="470" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="118" fill="url(#chrome-roommomentssvg)" letter-spacing="-2" stroke="#b07a5a" stroke-width="1.5" textLength="520" lengthAdjust="spacingAndGlyphs">MOMENTS</text>
+      
+  <g transform="translate(70 160) scale(0.9)" fill="none" stroke="#c0603e" stroke-width="3.333333333333333" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/><circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+      <text x="40" y="540" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#8a4a2e" text-anchor="start">HAPPY LITTLE PIECES OF MY DAYS</text>
+      <line x1="40" y1="500" x2="560" y2="500" stroke="#8a4a2e" stroke-width="2" opacity=".5"/>
+  <rect width="600" height="600" filter="url(#g-roommomentssvg)"/>
+</svg>

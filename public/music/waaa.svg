@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg-waaasvg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0b0f"/><stop offset="0.5" stop-color="#1a0f18"/><stop offset="1" stop-color="#0b0d0c"/></linearGradient>
+    <radialGradient id="glow-waaasvg" cx=".3" cy=".55" r="0.6"><stop offset="0" stop-color="#ff3db8" stop-opacity=".9"/><stop offset="1" stop-color="#ff3db8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome-waaasvg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#d6e2ee"/><stop offset=".5" stop-color="#8fa3b8"/><stop offset=".62" stop-color="#eef4fa"/><stop offset="1" stop-color="#b8c4d6"/>
+    </linearGradient>
+    
+  <filter id="g-waaasvg" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="table" tableValues="0 0.3"/></feComponentTransfer>
+  </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-waaasvg)"/>
+  <rect width="600" height="600" fill="url(#glow-waaasvg)"/>
+  
+      <text x="30" y="360" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="210" fill="#ff3db8" letter-spacing="-2" textLength="540" lengthAdjust="spacingAndGlyphs" opacity=".95">WAAA</text>
+      <text x="36" y="366" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="210" fill="none" letter-spacing="-2" textLength="540" lengthAdjust="spacingAndGlyphs" stroke="#c6ff3d" stroke-width="2">WAAA</text>
+      
+  <g transform="translate(520 130) scale(1)" fill="none" stroke="#c6ff3d" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/><circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+      <text x="40" y="70" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#ffffff" text-anchor="start">schWAAA</text>
+      <text x="40" y="540" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#ff3db8" text-anchor="start">DEMO · 140 BPM · JERSEY CLUB</text>
+      <path d="M40 420 L560 420" stroke="#ffffff" stroke-width="2" opacity=".4"/>
+  <rect width="600" height="600" filter="url(#g-waaasvg)"/>
+</svg>

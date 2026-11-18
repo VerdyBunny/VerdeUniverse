@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg-roommvssvg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="0.5" stop-color="#132036"/><stop offset="1" stop-color="#0d1411"/></linearGradient>
+    <radialGradient id="glow-roommvssvg" cx=".7" cy=".3" r="0.6"><stop offset="0" stop-color="#3a6ea5" stop-opacity=".9"/><stop offset="1" stop-color="#3a6ea5" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome-roommvssvg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#d6e2ee"/><stop offset=".5" stop-color="#8fa3b8"/><stop offset=".62" stop-color="#eef4fa"/><stop offset="1" stop-color="#b8c4d6"/>
+    </linearGradient>
+    
+  <filter id="g-roommvssvg" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="table" tableValues="0 0.28"/></feComponentTransfer>
+  </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-roommvssvg)"/>
+  <rect width="600" height="600" fill="url(#glow-roommvssvg)"/>
+  
+      <rect x="24" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="24" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="72" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="72" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="120" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="120" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="168" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="168" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="216" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="216" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="264" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="264" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="312" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="312" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="360" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="360" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="408" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="408" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="456" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="456" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="504" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="504" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="552" y="24" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/><rect x="552" y="558" width="26" height="18" rx="4" fill="#ffffff" opacity=".18"/>
+      <text x="560" y="250" text-anchor="end" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="240" fill="#c6ff3d" opacity=".18" letter-spacing="-10">02</text>
+      <text x="40" y="470" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="200" fill="#c6ff3d" letter-spacing="-2" >MVs</text>
+      
+  <g transform="translate(70 170) scale(0.9)" fill="none" stroke="#ffffff" stroke-width="3.333333333333333" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/><circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+      <text x="40" y="525" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#ffffff" text-anchor="start">SONGS I TURNED INTO LITTLE FILMS</text>
+  <rect width="600" height="600" filter="url(#g-roommvssvg)"/>
+</svg>

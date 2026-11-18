@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Verde's ToolKit: a garden trowel whose blade is a leaf -->
-  <circle cx="32" cy="32" r="30" fill="#1f6b45"/>
-  <g transform="rotate(38 32 32)" fill="none" stroke="#f6faef" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="28" y="7" width="8" height="14" rx="4"/>
-    <path d="M32 21 V28"/>
-    <path d="M32 28 C44 30 46 42 32 57 C18 42 20 30 32 28 Z"/>
-    <path d="M32 35 V49"/>
-    <path d="M32 44 L38 38.5 M32 40 L26 34.5"/>
+  <!-- VerdeToolKit name tag, "Verdy Bunny": the same bunny in glasses, a pine line on leaf green -->
+  <circle cx="32" cy="32" r="30" fill="#8DBF5A"/>
+  <g fill="none" stroke="#1f6b45" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24.5 31 C17 21 17.5 11.5 22 9.5 C27 11.5 29.5 21 28.5 30"/>
+    <path d="M39.5 31 C47 21 46.5 11.5 42 9.5 C37 11.5 34.5 21 35.5 30"/>
+    <circle cx="23" cy="40.5" r="8"/>
+    <circle cx="41" cy="40.5" r="8"/>
+    <path d="M31 39.5 Q32 38.2 33 39.5"/>
+    <path d="M30.5 49.5 Q32 51 33.5 49.5"/>
   </g>
 </svg>

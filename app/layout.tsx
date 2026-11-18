@@ -13,7 +13,7 @@ const body = Hanken_Grotesk({ subsets: ["latin"], variable: "--font-body" });
 export const metadata: Metadata = {
   title: "VerdeUniverse",
   description: "Tools, AI art and ideas, all grown by Verde.",
-  icons: { icon: asset("/badges/verde.svg") },
+  icons: { icon: asset("/badges/verdy-bunny.svg") },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         <noscript>
-          <style>{`.reveal{opacity:1;transform:none}`}</style>
+          <style>{`.reveal{opacity:1;transform:none}.hop-pending .hop-tile,[data-hop-home],.bunny-nn{opacity:1!important}`}</style>
         </noscript>
         {children}
       </body>

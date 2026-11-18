@@ -10,7 +10,7 @@ export const INSTAGRAM = "https://www.instagram.com/arty.verde/";
 export const X_ART = "https://x.com/verdeArty";
 /** VerdeSelf: information and words */
 export const INSTAGRAM_SELF = "https://www.instagram.com/verde.self/";
-export const SUBSTACK = "https://substack.com/@verdebunny";
+export const SUBSTACK = "https://substack.com/@verdybunny";
 /** one contact for all of Verde */
 export const EMAIL = "hello.verdeuniverse@gmail.com";
 
@@ -84,13 +84,35 @@ export const journey = [
   { date: "18 Nov 2026", text: "My first update: VerdeSnap v0.2.0" },
 ];
 
-export const ribbon = [
-  "tools",
-  "arte",
-  "想法",
-  "made by me",
-  "hecho con calma",
-  "慢慢长大",
-  "new day new me",
-  "verde",
+export type Song = { title: string; caption: string; cover: string; file: string };
+
+/** my own songs (made 16 Nov 2026), as Verdy Bunny */
+export const songs: Song[] = [
+  {
+    title: "Winter Freedom ✧",
+    caption: "My first beat: UK garage meets K-pop, 132 BPM, swung hats and dreamy organ stabs. Made from pure code ❄️",
+    cover: "/music/winter-freedom.svg",
+    file: "/music/winter-freedom.mp3",
+  },
+  {
+    title: "Winter Freedom (chop) ✧",
+    caption: "Airy Y2K, a bouncy Jersey-club beat at 140 BPM, and the hook is my own voice, cut into syllables and tuned into a new melody 🐰💙",
+    cover: "/music/winter-freedom-chop.svg",
+    file: "/music/winter-freedom-chop.mp3",
+  },
+  {
+    title: "WAAA (demo) ✧",
+    caption: "My sarcastic anger song: sweet on the outside, savage on the inside. The WAAA screams in 中文, English and Español 哇! Wah! ¡Guaa!",
+    cover: "/music/waaa.svg",
+    file: "/music/waaa-demo.mp3",
+  },
+];
+
+/** cover: the essay's picture in public/essays/<slug>/, if it has one */
+export type Essay = { slug: string; title: string; date: string; line: string; cover?: string };
+
+/** some of my "Real me" essays (VerdeSelf), newest first; each has its own page at /essays/<slug> */
+export const essays: Essay[] = [
+  { slug: "soil-and-the-house", cover: "image.jpg", title: "The Soil and the House", date: "11 Nov 2026", line: "What do I really want from a relationship? The soil first, then the house you build on it." },
+  { slug: "defaults-not-destiny", cover: "image.jpg", title: "Defaults, Not Destiny: Love, Power, and Patriarchy", date: "11 Nov 2026", line: "Even a short, sweet relationship showed me something deep about the defaults we grow up with." },
 ];

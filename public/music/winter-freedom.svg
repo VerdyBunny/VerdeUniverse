@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg-winterfreedomsvg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dff3ff"/><stop offset="0.5" stop-color="#bfe3e8"/><stop offset="1" stop-color="#8fd3b5"/></linearGradient>
+    <radialGradient id="glow-winterfreedomsvg" cx=".78" cy=".2" r="0.6"><stop offset="0" stop-color="#fff7d6" stop-opacity=".9"/><stop offset="1" stop-color="#fff7d6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome-winterfreedomsvg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#d6e2ee"/><stop offset=".5" stop-color="#8fa3b8"/><stop offset=".62" stop-color="#eef4fa"/><stop offset="1" stop-color="#b8c4d6"/>
+    </linearGradient>
+    
+  <filter id="g-winterfreedomsvg" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="table" tableValues="0 0.35"/></feComponentTransfer>
+  </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-winterfreedomsvg)"/>
+  <rect width="600" height="600" fill="url(#glow-winterfreedomsvg)"/>
+  
+      <text x="40" y="300" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="118" fill="url(#chrome-winterfreedomsvg)" letter-spacing="-2" stroke="#5f7d8f" stroke-width="1.5" textLength="520" lengthAdjust="spacingAndGlyphs">WINTER</text>
+      <text x="40" y="410" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="118" fill="#1f6b45" letter-spacing="-2" textLength="520" lengthAdjust="spacingAndGlyphs">FREEDOM</text>
+      
+  <g transform="translate(510 140) scale(1.15)" fill="none" stroke="#1f6b45" stroke-width="3.0434782608695654" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/><circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+      <text x="40" y="70" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#1f6b45" text-anchor="start">schWAAA</text>
+      <text x="560" y="560" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#1f6b45" text-anchor="end">132 BPM · UK GARAGE</text>
+      <line x1="40" y1="440" x2="560" y2="440" stroke="#1f6b45" stroke-width="2"/>
+  <rect width="600" height="600" filter="url(#g-winterfreedomsvg)"/>
+</svg>

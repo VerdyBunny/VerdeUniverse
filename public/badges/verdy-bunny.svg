@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-78 -108 156 156">
+  <!-- Verdy Bunny: my own logo and profile picture (not a brand logo): two long ears over round
+       glasses, one neon-lime line on deep forest green -->
+  <circle cx="0" cy="-30" r="78" fill="#173b29"/>
+  <g fill="none" stroke="#C6FF3D" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/>
+    <circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+</svg>

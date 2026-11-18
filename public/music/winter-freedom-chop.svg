@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg-winterfreedomchopsvg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9cc9f5"/><stop offset="0.5" stop-color="#d6ecff"/><stop offset="1" stop-color="#ffe3f0"/></linearGradient>
+    <radialGradient id="glow-winterfreedomchopsvg" cx=".2" cy=".85" r="0.6"><stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="chrome-winterfreedomchopsvg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#d6e2ee"/><stop offset=".5" stop-color="#8fa3b8"/><stop offset=".62" stop-color="#eef4fa"/><stop offset="1" stop-color="#b8c4d6"/>
+    </linearGradient>
+    
+  <filter id="g-winterfreedomchopsvg" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="table" tableValues="0 0.35"/></feComponentTransfer>
+  </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg-winterfreedomchopsvg)"/>
+  <rect width="600" height="600" fill="url(#glow-winterfreedomchopsvg)"/>
+  
+      <g transform="rotate(-6 300 300)">
+        <text x="30" y="250" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="210" fill="#ffffff" letter-spacing="-2" opacity=".95">CH</text>
+        <text x="300" y="300" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="210" fill="url(#chrome-winterfreedomchopsvg)" letter-spacing="-2" stroke="#6f8aa6" stroke-width="2">OP</text>
+      </g>
+      <rect x="0" y="262" width="600" height="10" fill="#ff8fc8"/>
+      <text x="40" y="470" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="46" fill="#1f4f6b" letter-spacing="-2" >WINTER FREEDOM</text>
+      
+  <g transform="translate(520 520) scale(0.85)" fill="none" stroke="#ff8fc8" stroke-width="3.5294117647058822" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-14 -6 C-30 -40 -30 -78 -18 -86 C-6 -78 -4 -40 -8 -6"/>
+    <path d="M14 -6 C30 -40 30 -78 18 -86 C6 -78 4 -40 8 -6"/>
+    <circle cx="-17" cy="12" r="14"/><circle cx="17" cy="12" r="14"/>
+    <path d="M-3 10 Q0 6 3 10"/>
+  </g>
+      <text x="40" y="70" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#1f4f6b" text-anchor="start">schWAAA · VOCAL CHOPS</text>
+      <text x="40" y="510" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="15" letter-spacing="4" fill="#1f4f6b" text-anchor="start">140 BPM · JERSEY CLUB</text>
+      <path d="M470 70 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8z" fill="#ffffff"/>
+  <rect width="600" height="600" filter="url(#g-winterfreedomchopsvg)"/>
+</svg>
