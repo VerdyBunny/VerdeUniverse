@@ -1,7 +1,7 @@
 // Everything the site says lives here, so changing a word never means touching a layout.
 // This site is public: only finished work and my own words about it, nothing private.
 
-export const VERDESNAP_REPO = "https://github.com/schwa1997/verdeSnap";
+export const VERDESNAP_REPO = "https://github.com/VerdyBunny/VerdeSnap";
 export const VERDESNAP_VERSION = "v0.2.0";
 export const VERDESNAP_RELEASE = `${VERDESNAP_REPO}/releases/tag/${VERDESNAP_VERSION}`;
 export const GITHUB_PROFILE = "https://github.com/VerdyBunny";
